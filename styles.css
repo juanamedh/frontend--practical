@@ -89,6 +89,17 @@ form a {
     font-weight: bold;
     height: 50px;
 }
+.secondary-button {
+    background: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
 
 .login-button {
     margin-top: 14px;
