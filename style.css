@@ -84,7 +84,7 @@ body {
 
 .login-button {
     margin-top: 14px;
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 @media (max-width:640px) {
     .logo {
