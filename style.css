@@ -29,14 +29,14 @@ body {
 
 .logo {
     width: 150px;
-    margin-bottom: 32px;
+    margin-bottom: 48px;
     justify-self: center;
     display: none;
 }
 
 .title {
     font-size: var(--lg);
-    margin: 12px;
+    margin-bottom: 12px;
     text-align: center;
 }
 
