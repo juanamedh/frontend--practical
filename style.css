@@ -86,6 +86,17 @@ body {
     margin-top: 14px;
     margin-bottom: 30px;
 }
+
+.email-image {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width:640px) {
     .logo {
         display: block;
