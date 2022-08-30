@@ -25,6 +25,7 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 300px;
+    justify-items: center;
 }
 
 .logo {
@@ -95,6 +96,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.email-image img {
+    width: 80px;
+}
+
+.resend {
+    font-size: var(--md);
+}
+
+.resend span {
+    color: var(--very-llight-pink);
+}
+
+.resend a {
+    color: var(--hospital-green);
+    text-decoration: none;
 }
 
 @media (max-width:640px) {
