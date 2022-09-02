@@ -17,4 +17,6 @@ body {
 .deesktop-menu {
     width: 100px;
     height: auto;
+    border: 1px solid var(--very-llight-pink);
+    border-radius: 6px;
 }
