@@ -24,6 +24,10 @@ body {
     list-style: none;
 }
 
+.mobile-menu ul:nth-child(1){
+    border-bottom: 1px solid var(--very-llight-pink);
+}
+
 .mobile-menu ul li {
     margin-bottom: 24px;
 }
@@ -34,7 +38,7 @@ body {
     font-weight: bold;
 }
 
-.email {
+.mobile-menu .email {
     font-size: var(--sm);
     font-weight: 300;
 }
