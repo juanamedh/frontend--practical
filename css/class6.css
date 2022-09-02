@@ -19,10 +19,10 @@ body {
     grid-template-columns: repeat(auto-fill, 240px);
 }
 
-.prodcut-card {
+.product-card {
     width: 240px;
 }
-.prodcut-card {
+.product-card img {
     width: 240px;
     height: 240px;
     border-radius: 20px;
