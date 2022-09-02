@@ -42,3 +42,8 @@ body {
     font-size: var(--sm);
     font-weight: 300;
 }
+
+.mobile-menu .sign-out {
+    font-weight: var(--sm);
+    color: var(--hospital-green);
+}
