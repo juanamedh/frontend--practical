@@ -28,3 +28,18 @@ body {
     border-radius: 20px;
     object-fit: cover;
 }
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-info figure {
+    margin: 0;
+}
+
+.product-info figure img {
+    width: 36px;
+    height: 36px;
+}
