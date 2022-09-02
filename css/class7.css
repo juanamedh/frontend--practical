@@ -17,6 +17,7 @@ body {
 .desktop-menu {
     width: 100px;
     height: auto;
+    padding: 20px 20px 0 20px;
     border: 1px solid var(--very-llight-pink);
     border-radius: 6px;
 }
@@ -28,6 +29,11 @@ body {
 }
 .desktop-menu ul li {
     text-align: end;
+}
+
+.desktop-menu ul li:nth-child(1),
+.desktop-menu ul li:nth-child(2) {
+    font-weight: bold;
 }
 
 .desktop-menu ul li:last-child {
