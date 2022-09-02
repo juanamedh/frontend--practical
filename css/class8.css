@@ -47,3 +47,9 @@ body {
     font-weight: var(--sm);
     color: var(--hospital-green);
 }
+
+.mobile-menu ul:nth-child(3) {
+position: absolute;
+bottom: 24px;
+}
+
