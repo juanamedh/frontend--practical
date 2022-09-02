@@ -78,6 +78,15 @@ form a {
     margin-bottom: 12px;
 }
 
+.input-name,
+.input-email,
+.input-password {
+    margin-bottom: 22px;
+}
+.input-button {
+    background-color: var(--hospital-green);
+}
+
 .primary-button {
     background: var(--hospital-green);
     border-radius: 8px;
