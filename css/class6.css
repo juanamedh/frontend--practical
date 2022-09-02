@@ -44,3 +44,20 @@ body {
     width: 36px;
     height: 36px;
 }
+
+@media (max-width: 640px) {
+    .cards-container {
+        grid-template-columns: repeat(auto-fill, 140px);
+        gap: 16px;
+    }
+    
+    .product-card {
+        width: 140px;
+    }
+
+    .product-card img {
+        width: 140px;
+        height: 140px;
+        border-radius: 12px;
+    }
+}
