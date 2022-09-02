@@ -39,3 +39,10 @@ body {
     color: var(--hospital-green);
     font-size: var(--sm);
 }
+
+.desktop-menu ul li a {
+    display: inline-block;
+    color: var(--black);
+    text-decoration: none;
+    margin-bottom: 20px;
+}
