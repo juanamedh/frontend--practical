@@ -18,3 +18,13 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, 240px);
 }
+
+.prodcut-card {
+    width: 240px;
+}
+.prodcut-card {
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+    object-fit: cover;
+}
