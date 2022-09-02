@@ -29,8 +29,9 @@ body {
 
 .title {
     font-size: var(--lg);
-    margin-bottom: 12px;
-    text-align: center;
+    margin-bottom: 30px;
+    text-align: start;
+    width: 262px;
 }
 
 .form {
@@ -38,12 +39,9 @@ body {
     flex-direction: column;
 }
 
-form a {
-    color: var(--hospital-green);
-    font-size: var(--sm);
-    text-align: center;
-    text-decoration: none;
-    margin-bottom: 52px;
+.form div {
+    display: flex;
+    flex-direction: column;
 }
 
 .label {
@@ -56,6 +54,7 @@ form a {
     background-color: var(--text-input-field);
     border: none;
     border-radius: 8px;
+    width: 250px;
     height: 30px;
     font-size: var(--md);
     padding: 6px;
@@ -93,7 +92,7 @@ form a {
     .logo {
         display: block;
     }
-    .secondary-button {
+    .primary-button {
         width: 300px;
         position: absolute;
         bottom: 0;
