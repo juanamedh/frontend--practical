@@ -67,10 +67,16 @@ nav {
 }
 
 .navbar-right .navbar__shopping-cart div {
-    width: 8px;
-    height: 8px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--hospital-green);
     border-radius: 50%;
     font-size: var(--sm);
     font-weight: bold;
+    position: absolute;
+    top: -6px;
+    right: -3px;
 }
