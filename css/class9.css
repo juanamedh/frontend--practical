@@ -52,6 +52,11 @@ body {
     flex-direction: column;
 }
 
+.order p:nth-child(2) {
+    text-align: end;
+    font-weight: bold;
+}
+
 .order p span:nth-child(1) {
     font-size: var(--md);
     font-weight: bold;
