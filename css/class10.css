@@ -41,7 +41,7 @@ body {
     grid-template-columns: auto 1fr auto;
     gap: 16px;
     align-items: center;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
     border-radius: 8px;
 }
 
