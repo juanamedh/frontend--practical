@@ -57,3 +57,7 @@ nav {
     border: 1px solid var(--hospital-green);
 }
 
+.navbar-right .navbar__email {
+    color: var(--very-llight-pink);
+    font-size: var(--sm);
+}
