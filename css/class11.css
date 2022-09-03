@@ -13,3 +13,45 @@ body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
 }
+
+nav {
+    display: flex;
+}
+
+.menu {
+    display: none;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar-left ul,
+.navbar-right ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left {
+    display: flex;
+}
+.navbar-left ul {
+    margin-left: 12px;
+}
+
+.navbar-left ul li a {
+    text-decoration: none;
+    color: var(--very-llight-pink);
+    border: 1px solid var(--white);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.navbar-left ul li a:hover,
+.navbar-right ul li a:hover {
+    border: 1px solid var(--hospital-green);
+}
+
