@@ -60,6 +60,7 @@ nav {
 .navbar-right .navbar__email {
     color: var(--very-llight-pink);
     font-size: var(--sm);
+    margin-right: 12px;
 }
 
 .navbar__shopping-cart {
