@@ -42,4 +42,13 @@ body {
     height: 70px;
     border-radius: 20px;
     object-fit: cover;
+
+}
+.shopping-cart p:nth-child(2) {
+    color: var(--very-llight-pink);
+}
+
+.shopping-cart p:nth-child(3) {
+    font-size: var(--md);
+    font-weight: bold;
 }
