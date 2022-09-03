@@ -14,7 +14,7 @@ body {
     margin: 0;
 }
 
-.my-order {
+.my-orders {
     width: 100%;
     height: 100vh;
     display: grid;
@@ -26,13 +26,13 @@ body {
     margin: 0 0 40px;
 }
 
-.my-order-container {
+.my-orders-container {
     display: grid;
     grid-template-rows: auto 1fr;
     width: 300px;
 }
 
-.my-order-content {
+.my-orders-content {
     display: flex;
     flex-direction: column;
 }
