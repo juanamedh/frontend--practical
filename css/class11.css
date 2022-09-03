@@ -16,6 +16,9 @@ body {
 
 nav {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 24px;
 }
 
 .menu {
@@ -30,7 +33,6 @@ nav {
 .navbar-right ul {
     list-style: none;
     padding: 0;
-    margin-top: 24px;
     display: flex;
     align-items: center;
 }
