@@ -49,6 +49,7 @@ nav {
     border: 1px solid var(--white);
     padding: 8px;
     border-radius: 8px;
+    height: 60px;
 }
 
 .navbar-left ul li a:hover,
@@ -59,4 +60,17 @@ nav {
 .navbar-right .navbar__email {
     color: var(--very-llight-pink);
     font-size: var(--sm);
+}
+
+.navbar__shopping-cart {
+    position: relative;
+}
+
+.navbar-right .navbar__shopping-cart div {
+    width: 8px;
+    height: 8px;
+    background-color: var(--hospital-green);
+    border-radius: 50%;
+    font-size: var(--sm);
+    font-weight: bold;
 }
