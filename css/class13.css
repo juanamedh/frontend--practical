@@ -14,11 +14,20 @@ body {
     margin: 0;
 }
 
+.shopping-cart {
+    width: 360px;
+    padding: 24px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+}
+
 .shopping-cart__header {
     display: flex;
 }
 
 .shopping-cart__header img {
+    margin: 0 14px;
     transform: rotate(180deg);
 }
 
@@ -92,3 +101,4 @@ body {
     font-weight: bold;
     height: 50px;
 }
+
