@@ -14,6 +14,19 @@ body {
     margin: 0;
 }
 
+.shopping-cart__header {
+    display: flex;
+}
+
+.shopping-cart__header img {
+    transform: rotate(180deg);
+}
+
+.title {
+    font-size: var(--lg);
+    font-weight: boldd;
+}
+
 .shopping-cart .item {
     display: grid;
     grid-template-columns: auto 1fr auto auto auto;
@@ -67,3 +80,15 @@ body {
     font-size: var(--md);
     font-weight: bold;
 } 
+
+.button__primary {
+    background: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
