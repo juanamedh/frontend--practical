@@ -102,3 +102,8 @@ body {
     height: 50px;
 }
 
+@media (max-width: 640px) {
+    .shopping-cart {
+        width: 100%;
+    }
+}
