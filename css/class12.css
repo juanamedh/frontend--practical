@@ -14,6 +14,11 @@ body {
     margin: 0;
 }
 
+.product-detail {
+    width: 360px;
+    padding-bottom: 24px;
+}
+
 .button__primary {
     background: var(--hospital-green);
     border-radius: 8px;
