@@ -42,6 +42,16 @@ body {
     cursor: pointer;
 }
 
+.product-detail__info {
+    margin: 0 24px;
+}
+
+.product-detail__info p:nth-child(2) {
+    font-weight: bold;
+    font-size: var(--md);
+    margin: 0 0 4px;
+}
+
 .button__primary {
     background: var(--hospital-green);
     border-radius: 8px;
