@@ -14,7 +14,7 @@ body {
     margin: 0;
 }
 
-.primary-button {
+.button__primary {
     background: var(--hospital-green);
     border-radius: 8px;
     border: none;
@@ -24,4 +24,10 @@ body {
     font-size: var(--md);
     font-weight: bold;
     height: 50px;
+}
+
+.buton__add-to-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
