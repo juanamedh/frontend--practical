@@ -19,6 +19,15 @@ body {
     padding-bottom: 24px;
 }
 
+.product-detail__close {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.product-detail__close:hover {
+    cursor: pointer;
+}
+
 .button__primary {
     background: var(--hospital-green);
     border-radius: 8px;
