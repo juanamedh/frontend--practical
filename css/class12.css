@@ -58,7 +58,7 @@ body {
 }
 .product-detail__info p:nth-child(3) {
     color: var(--very-llight-pink);
-    font-size: var(--sm;
+    font-size: var(--sm);
     margin: 0 0 36px;
 }
 
