@@ -16,7 +16,7 @@ body {
 
 .shopping-cart .item {
     display: grid;
-    grid-template-columns: auto 1fr auto auto;
+    grid-template-columns: auto 1fr auto auto auto;
     gap: 16px;
     margin-bottom: 16px;
     align-items: center;
