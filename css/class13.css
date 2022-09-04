@@ -22,9 +22,9 @@ body {
     transform: rotate(180deg);
 }
 
-.title {
+.shopping-cart__header .title {
     font-size: var(--lg);
-    font-weight: boldd;
+    font-weight: bold;
 }
 
 .shopping-cart .item {
